@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    background-color: rgb(105, 103, 101);
+}
+
+.cuadro {
+    width: 40%; 
+    height: 540px; 
+    background-color: #de8303; 
+    border: 2px solid #000000; 
+    border-radius: 30px;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #000000;
+}
+input [type="text"]{
+
+    margin: 5px;
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+}
